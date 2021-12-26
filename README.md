@@ -1,5 +1,5 @@
 This is a simple library providing [`ParenthesizedC`] [ZST] that implements [`syn::parse::Parse`] and
-thus, for example, can be used with [`syn::parse2`]\(\) for the purpose of parsing `(C)` [attribute tokens][attribute token] as in [`#[repr(C)`] [outer attribute].
+thus, for example, can be used with [`syn::parse2`]\(\) for the purpose of parsing `(C)` [attribute tokens][attribute token] as in [`#\[repr(C)\]`] [outer attribute].
 
 # Example:
 
@@ -25,7 +25,7 @@ fn main() -> syn::Result<()> {
 [`syn::parse::Parse`]: https://docs.rs/syn/latest/syn/parse/trait.Parse.html
 [`syn::parse2`]: https://docs.rs/syn/latest/syn/fn.parse2.html
 [attribute token]: https://docs.rs/syn/1.0.84/syn/struct.Attribute.html
-[`#[repr(C)`]: https://doc.rust-lang.org/nomicon/other-reprs.html#reprc
+[`#\[repr(C)\]`]: https://doc.rust-lang.org/nomicon/other-reprs.html#reprc
 [outer attribute]: https://doc.rust-lang.org/reference/attributes.html
 
 # License
