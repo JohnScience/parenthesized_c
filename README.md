@@ -26,6 +26,7 @@ fn main() -> syn::Result<()> {
 [`syn::parse2`]: https://docs.rs/syn/latest/syn/fn.parse2.html
 [attribute token]: https://docs.rs/syn/1.0.84/syn/struct.Attribute.html
 [`#[repr(C)]`]: https://doc.rust-lang.org/nomicon/other-reprs.html#reprc
+
 [outer attribute]: https://doc.rust-lang.org/reference/attributes.html
 
 # License
