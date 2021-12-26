@@ -1,5 +1,5 @@
 This is a simple library providing [`ParenthesizedC`] [ZST] that implements [`syn::parse::Parse`] and
-thus, for example, can be used with [`syn::parse2`]\(\) for the purpose of parsing `(C)` [attribute tokens][attribute token] as in [`#\[repr(C)\]`] [outer attribute].
+thus, for example, can be used with [`syn::parse2`]\(\) for the purpose of parsing `(C)` [attribute tokens][attribute token] as in [#[repr(C)]][`#\[repr(C)\]`] [outer attribute].
 
 # Example:
 
